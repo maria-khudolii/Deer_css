@@ -14,7 +14,7 @@ body {
 	background-repeat: repeat-x; 
 	background-size: contain;
 	background-position: center; 
-	z-index: 15;
+	z-index: 2;
 }
 
 .sun {
@@ -26,7 +26,7 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;
-	z-index: 5;
+	z-index: 1;
 }
 
 .container {
@@ -64,6 +64,20 @@ body {
 	z-index: 5;
  }
 
+ .rainbow { 
+	height: 700px; 
+	width: 1100px;
+	position: absolute;
+	bottom: 0;
+	background-image: url("https://i.ibb.co/HX3JGHr/rainbow.png"); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	left:50%; 
+  margin-left: -550px;
+	z-index: 0;
+ }
+
 .grass {
 	height: 150px;
 	width: 100%;
@@ -75,16 +89,3 @@ body {
 	z-index: 10; 
 }
 
-.rainbow { 
-	height: 70vh;
-	width: 1500px;
-	position: absolute;
-	bottom: 0;
-	background-image: url("https://i.ibb.co/HX3JGHr/rainbow.png"); 
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	left:50%; 
-  margin-left: -750px;
-	z-index: 0;
- }
